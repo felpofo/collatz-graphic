@@ -18,7 +18,7 @@
     "baseUrl": ".",
     "paths": {
       "@components": ["src/components"],
-      "@modals": ["src/modals"],
+      "@modals": ["src/components/modals"],
       "@hooks": ["src/hooks"],
     }
   },

@@ -1,5 +1,7 @@
 import { Graph } from "@components";
-import { Number } from "@modals";
+import { Number } from "src/components/modals";
+
+import "./styles/global.scss"
 
 export default function App() {
   return (
