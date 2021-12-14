@@ -1,0 +1,50 @@
+.NumberModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+
+  overflow: hidden;
+  outline: none;
+}
+
+.NumberModalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 40px;
+  width: 400px;
+  height: 300px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: lightgray;
+
+  border-radius: 3%;
+  box-shadow: 0 0 20px 2px  rgba(0, 0, 0, 0.5);
+
+  overflow: hidden;
+  outline: none;
+
+  .NumberModalTitle {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .NumberModalInput {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border: none;
+  }
+}
